@@ -45,7 +45,9 @@ def types (extension):
             '.doc' : 'Documents',
             '.docx' : 'Documents',
             '.txt' : 'Documents',
-            '.exe' : 'Applications'
+            '.exe' : 'Applications',
+            '.torrent' : 'Torrents',
+            '.svg' : 'Vectors'
         }.get(extension, 'Others')
 
 class MyHandler(FileSystemEventHandler):
