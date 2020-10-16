@@ -75,10 +75,6 @@ class MyHandler(FileSystemEventHandler):
 
 folder_to_track = 'C:\\Users\\Umer\\Downloads'
 
-f = open('Download Organizer PID.txt','w+')
-pid = os.getpid()
-f.write(str(pid))
-f.close()
 
 event_handler = MyHandler()
 observer = Observer()
